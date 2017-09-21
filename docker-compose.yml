@@ -22,7 +22,7 @@ services:
        - .:/var/www
      environment:
        DB_HOST: db:3306
-       DB_USER: dev
+       DB_USER: root
        DB_PASSWORD: dev
 volumes:
   db_data:
